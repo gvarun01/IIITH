@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Stick Plant</title>
+    <script src="../lindenmayer.browser.js"></script>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        canvas {
+            display: block;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+            margin-top: 10px;
+            font-size: 2em;
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Stick Plant</h1>
+    <canvas id="canvas"></canvas>
+    <script>
+        var canvas = document.getElementById('canvas')
+        var ctx = canvas.getContext("2d")
+
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        ctx.translate(canvas.width * 0.5, canvas.height * 0.8);
+        
+        var stickPlant = new LSystem({
+            axiom: 'XF',
+            productions: {
+                'X': 'FY[+XF]XF[-XF]FYX',
+                'Y': 'YF'
+            },
+            finals: {
+                '+': () => { ctx.rotate((Math.PI / 180) * 45); },
+                '-': () => { ctx.rotate((Math.PI / 180) * -45); },
+                'F': () => {
+                    ctx.beginPath();
+                    ctx.moveTo(0, 0);
+                    ctx.lineTo(0, -15);
+                    ctx.stroke();
+                    ctx.translate(0, -15);
+                },
+                'G': () => {
+                    ctx.moveTo(0, 0);
+                    ctx.translate(0, -15);
+                },
+                '[': () => {
+                    ctx.save();
+                },
+                ']': () => {
+                    ctx.restore();
+                }
+            }
+        });
+        
+        stickPlant.iterate(3);
+        stickPlant.final();
+        
+    </script>
+
+</html>

@@ -1,0 +1,18 @@
+{
+  "axiom": "XF",
+  "productions": {
+    "X": "FY[+XF]XF[-XF]FYX",
+    "Y": "YF"
+  },
+  "finals": {
+    "Angle": 45,
+    "actions": {
+      "+": "rotate(45)",
+      "-": "rotate(-45)",
+      "F": "drawForward(15)",
+      "G": "moveForward(15)",
+      "[": "save()",
+      "]": "restore()"
+    }
+  }
+}

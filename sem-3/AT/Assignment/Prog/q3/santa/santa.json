@@ -1,0 +1,17 @@
+{
+  "axiom": "+F",
+  "productions": {
+    "F": "F-F++F-F"
+  },
+  "finals": {
+    "Angle": 75,
+    "actions": {
+      "+": "rotate(75)",
+      "-": "rotate(-75)",
+      "F": "drawForward(10)",
+      "G": "moveForward(10)",
+      "[": "save()",
+      "]": "restore()"
+    }
+  }
+}
