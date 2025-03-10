@@ -1,0 +1,587 @@
+########################################
+# Program: water
+# Rundate: Tue  4 Feb 2025 18:54:08
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-I20250204-185358-0434-22791515-p1m.asequence
+#    -bsequence emboss_water-I20250204-185358-0434-22791515-p1m.bsequence
+#    -datafile EDNAFULL
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NC_045512.2
+# 2: 21456-25517
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 6807
+# Identity:    2779/6807 (40.8%)
+# Similarity:  2779/6807 (40.8%)
+# Gaps:        3258/6807 (47.9%)
+# Score: 4835.0
+# 
+#
+#=======================================
+
+NC_045512.2    19091 ATGATGCA--CAG-CCTTGTAGTGACAAAGCTTATAAAATAGAAGAATTA  19137
+                     |||||.||  ||| ..||.||.|||                       |.
+21456-25517        1 ATGATACACTCAGTGTTTCTACTGA-----------------------TG     27
+
+NC_045512.2    19138 TTCTATTCTTATGCCACACATTCTGACAAATTCACAGATGGTGTA-TGCC  19186
+                     |||  ||.|||    ||||.|.|  |.|||.|.|| |.||.|||| .|||
+21456-25517       28 TTC--TTGTTA----ACACCTAC--AGAAAGTTAC-GTTGATGTAGGGCC     68
+
+NC_045512.2    19187 TATTTTGGAATTGCAATGTCGATAGATATCCTGCTAATTCCATTGTTTGT  19236
+                                              |.||.|||.|||.||   ||.||||
+21456-25517       69 -------------------------AGATTCTGTTAAGTC---TGCTTGT     90
+
+NC_045512.2    19237 AGATTTGACACTAGAGTGCTATCTAACCTTAACTTGCCTGGTTGTGATGG  19286
+                     |   ||||                               |||||      
+21456-25517       91 A---TTGA-------------------------------GGTTG------    100
+
+NC_045512.2    19287 TGGCAGTTTGTATGTAAATA-AACATGCATTCCACACACCAGCTTTTGAT  19335
+                                    |.||| ||||..|.|||            ||||||
+21456-25517      101 ---------------ATATACAACAGACTTTC------------TTTGAT    123
+
+NC_045512.2    19336 AAAAGT--GCTTTTGTTAATTTAAAACAATTACCATTTTTCTATTACTCT  19383
+                     ||||.|  ||.|..|..||||            .||.||||||  |..||
+21456-25517      124 AAAACTTGGCCTAGGCCAATT------------GATGTTTCTA--AGGCT    159
+
+NC_045512.2    19384 GACAGTCCATGTGAGTCTCATGGAAAACAAGTAGTGTCAGATATAGATTA  19433
+                     |||.||                                        ||||
+21456-25517      160 GACGGT----------------------------------------ATTA    169
+
+NC_045512.2    19434 TGTACCACTAAAGTCTGCTACGTGTATAACACGTTGCAATTTAGGTGGTG  19483
+                     |.|||| ||.|||.|                                   
+21456-25517      170 TATACC-CTCAAGGC-----------------------------------    183
+
+NC_045512.2    19484 CTGTCTGTAGACATCATGCTAATGAGTACAGATTGTATCTCGATGCTTAT  19533
+                                             .|||||.|              ||.|
+21456-25517      184 ------------------------CGTACATA--------------TTCT    195
+
+NC_045512.2    19534 AACATGATGATCTCAGCTGGCTTTAGCTTGTGGGTTTACAAACAATTTGA  19583
+                     |||||.|..|||                                      
+21456-25517      196 AACATAACTATC--------------------------------------    207
+
+NC_045512.2    19584 TACTTAT-AACCTCTGGAACACTTTTACAAGACT-TCAGAGTTTAGAAAA  19631
+                      |||||| ||..|||       ||||.|    || ||||.|   |||..|
+21456-25517      208 -ACTTATCAAGGTCT-------TTTTCC----CTATCAGGG---AGACCA    242
+
+NC_045512.2    19632 TGTGGCTTTTAATGTTGTAAATAAGGGACACTTTGATGGACA----ACAG  19677
+                     ||..|.|.|..|||||            .|||.||..|||||    ||||
+21456-25517      243 TGGTGATATGTATGTT------------TACTCTGCAGGACATGCTACAG    280
+
+NC_045512.2    19678 GGTGAAGTACCAGTTTCTATCATTAATAACACTGTTTACACAAAAGTTGA  19727
+                     |                       .|.|||      |.|||||||||||.
+21456-25517      281 G-----------------------CACAAC------TCCACAAAAGTTGT    301
+
+NC_045512.2    19728 TGGTGTTGATGTAG-----AATTGTTTGAAAATAAAACAACATTACCTGT  19772
+                     |        |||||     .|||.|..|.|..|.|||||  .||   ||.
+21456-25517      302 T--------TGTAGCTAACTATTCTCAGGACGTCAAACA--GTT---TGC    338
+
+NC_045512.2    19773 TAATGTAGCATTTGAGCTTTGGGCTAAGCGCAACATTAAACCAGTACCAG  19822
+                     |||||          |.||||...|                |.||     
+21456-25517      339 TAATG----------GGTTTGTCGT----------------CCGT-----    357
+
+NC_045512.2    19823 AGGTGAAAATACTCAATAATTTGGGTGTGGA-CATTGCTGCTAATACTGT  19871
+                                    |||          ||| ||  |||||.|||     
+21456-25517      358 ---------------ATA----------GGAGCA--GCTGCCAAT-----    375
+
+NC_045512.2    19872 GATCTGGGACTACAAAAGAGATGCTCCA---GCACATATATCTACTATTG  19918
+                                             ||||   ||||               
+21456-25517      376 ------------------------TCCACTGGCAC---------------    386
+
+NC_045512.2    19919 GTGTTTGTT-CTATGACTGACATAGCCAAGAAACCA-----ACT----GA  19958
+                          |||| .|||        |||||.|...||||     |||    ||
+21456-25517      387 -----TGTTATTAT--------TAGCCCATCTACCAGCGCTACTATACGA    423
+
+NC_045512.2    19959 AACGATTTGTGCACCACTCACTGTCTTTTTTGATGG----TAGAGTTGAT  20004
+                     || .||||    |||     ||| |||||.||.|||    |..|||||  
+21456-25517      424 AA-AATTT----ACC-----CTG-CTTTTATGCTGGGTTCTTCAGTTG--    460
+
+NC_045512.2    20005 GGTCAAGTAGACTTATTTAGAAATGCCCGTAATGGTGTTCTTATTACAGA  20054
+                                                 |||||    ||||     ||||
+21456-25517      461 ----------------------------GTAAT----TTCT-----CAGA    473
+
+NC_045512.2    20055 AGGTAGTGTTAAAGG-------TTTACAACCAT-CTGTAGGTCCCAAACA  20096
+                     .||||     |||.|       |.|.|||.||| ||.|||.||       
+21456-25517      474 TGGTA-----AAATGGGCCGCTTCTTCAATCATACTCTAGTTC-------    511
+
+NC_045512.2    20097 AGCTAGTCTT----AATGGA---GTCACATTAATTGGAGAAGCCGTAAAA  20139
+                           |.||    .|||||   |.|||.|||.||.|||           
+21456-25517      512 ------TTTTGCCCGATGGATGTGGCACTTTACTTAGAG-----------    544
+
+NC_045512.2    20140 ACACAGTTCAAT-TATTATA------------AGAAAGTTGATGGTGTTG  20176
+                        |..||.|.| ||||.||            .||||  |.|     |||
+21456-25517      545 ---CTTTTTATTGTATTCTAGAGCCTCGCTCTGGAAA--TCA-----TTG    584
+
+NC_045512.2    20177 TCC----AACAATTACCTGAAACTTACTTT----ACTCAGAGTAGAAATT  20218
+                     |||    ..||||| ||| |.|||| ||||    |||.|           
+21456-25517      585 TCCTGCTGGCAATT-CCT-ATACTT-CTTTTGCCACTTA-----------    620
+
+NC_045512.2    20219 TACAAGAATTTAAACCCAGGAGTCAAA----TGGAA---ATTGATTTCTT  20261
+                                           |||.|    ||.||   ||||  |||| 
+21456-25517      621 ----------------------TCACACTCCTGCAACAGATTG--TTCT-    645
+
+NC_045512.2    20262 AGAATTAGCTATGGATG--AATTCATTGAACGGTATAAAT--TAGAAGGC  20307
+                                  ||||  ||||      ||      |||  ||      
+21456-25517      646 -------------GATGGCAATT------AC------AATCGTA------    664
+
+NC_045512.2    20308 TATGCC--TTCGAACATATCGTTTATGGAG-ATTTTAGTCATAGTCAGTT  20354
+                      |||||  |..||||   ||.||||.|||| ||||||             
+21456-25517      665 -ATGCCAGTCTGAAC---TCTTTTAAGGAGTATTTTA-------------    697
+
+NC_045512.2    20355 AGGTGGTTTACATCTAC-TGATTGGAC---TAGCTAAACGTTTTAAGGAA  20400
+                                ||.||| |.|.||.||   ||..||.|| ||.|||  .|
+21456-25517      698 -----------ATTTACGTAACTGCACCTTTATGTACAC-TTATAA--CA    733
+
+NC_045512.2    20401 TCACCTTTTGAATTAGA--AGATTTTA------TTCCTATGGACAGTACA  20442
+                     |.|||    ||   |||  ||||||||      ||    ||| ||.||| 
+21456-25517      734 TTACC----GA---AGATGAGATTTTAGAGTGGTT----TGG-CATTAC-    770
+
+NC_045512.2    20443 GTTAAAAACTATTTCATAACAGATGCGCAAACAGGT------------TC  20480
+                        |.||||              |||.||   ||||            ||
+21456-25517      771 ---ACAAAC--------------TGCTCA---AGGTGTTCACCTCTTCTC    800
+
+NC_045512.2    20481 ATCTAAGTGTGTGTGTTCTGTTATTGATTTATTACTTGATGATTTTGTTG  20530
+                     ||||..||.||            ||||||| .|||          .|..|
+21456-25517      801 ATCTCGGTATG------------TTGATTT-GTAC----------GGCGG    827
+
+NC_045512.2    20531 AAATAATAAAATCCCAAGATTTATCTGTAGTTTCTAAGGTTGTCAAAGTG  20580
+                     .||||                       .|||||  |..|||.||...||
+21456-25517      828 CAATA-----------------------TGTTTC--AATTTGCCACCTTG    852
+
+NC_045512.2    20581 ACTATTGACTATACAGAAATTTCATTTATGCTTTGGTGTAAAGATGGCCA  20630
+                     .||.||.|..||||            |||         ||          
+21456-25517      853 CCTGTTTATGATAC------------TAT---------TA----------    871
+
+NC_045512.2    20631 TGTAGAAACATTTTACCCAAAATTACAATCTAGTCA-AGCGTGGCAACCG  20679
+                        ||.|..|||.||.|    |||.|       ||| ||           
+21456-25517      872 ---AGTATTATTCTATC----ATTCC-------TCACAG-----------    896
+
+NC_045512.2    20680 GGTGTTGCTATGCCTAATCTTTACAAAATGCAAAGAATGCTATTAGAAAA  20729
+                             |||.|.|  |||.|.||||.||            .|||||||
+21456-25517      897 --------TATTCGT--TCTATCCAAAGTG------------ATAGAAAA    924
+
+NC_045512.2    20730 G--TG---TGACCTTCAAAATTATGGTGATAGTGCAACATTACCTAAAGG  20774
+                     |  ||   || |||||                        |||.|     
+21456-25517      925 GCTTGGGCTG-CCTTC------------------------TACGT-----    944
+
+NC_045512.2    20775 CATAATGATGAATGTCGCAAAATATACTCAACTGTGTCAATATTTAAACA  20824
+                                          |||||   ||||   ||||         .
+21456-25517      945 ---------------------ATATA---AACT---TCAA---------C    958
+
+NC_045512.2    20825 CATTAACATTAGCTGTACCCTATAATATGAGAGTTATACATTTTGGTGCT  20874
+                     |.|||||.||        |||.|    || ||.||     ||.||.||.|
+21456-25517      959 CGTTAACTTT--------CCTGT----TG-GATTT-----TTCTGTTGAT    990
+
+NC_045512.2    20875 GGTTCTGATAAAGGAGTTGCACCAGGTACAGCTGTTTTAAGACAGTGGTT  20924
+                     ||||   |||.|.|        |||    ||||.|    ||||.||||||
+21456-25517      991 GGTT---ATATACG--------CAG----AGCTAT----AGACTGTGGTT   1021
+
+NC_045512.2    20925 GCCTACGGGTACGCTGCTTGTCGATTCAGATCTTAATGACTTTGTCTCTG  20974
+                                                     ||||||| ||||||    
+21456-25517     1022 --------------------------------TTAATGA-TTTGTC----   1034
+
+NC_045512.2    20975 ATGCAGATTCAACTTTGATTGGTGATTGTGCAACTGTACATACAGCTAAT  21024
+                             .|||||                |.||||..||||        
+21456-25517     1035 --------ACAACT----------------CCACTGCTCATA--------   1052
+
+NC_045512.2    21025 AAATGGGATCTCATTATTAGTGATATGTACGACCCTAAGACTAAAAATGT  21074
+                                         |||        |.|||..|       ||||
+21456-25517     1053 --------------------TGA--------ATCCTTCG-------ATGT   1067
+
+NC_045512.2    21075 TACAAAAGAAAATGACTCTAAAGAGG-GTTTTTTCACTTACATTTGTGGG  21123
+                                 |||.|||     || ||||.||||.||.|        |
+21456-25517     1068 ------------TGAATCT-----GGAGTTTATTCAGTTTC--------G   1092
+
+NC_045512.2    21124 TTTATACAA-CAAAAGCTAGCTCTTGGAGGTTC---CGTGGCTATAAAGA  21169
+                     |.|.|..|| |||||.||   |||    ||.||   .||||         
+21456-25517     1093 TCTTTCGAAGCAAAACCT---TCT----GGCTCAGTTGTGG---------   1126
+
+NC_045512.2    21170 TAACAGAACATTCTTGGAATGCTGATCTTTATAAGCTCATGGGACACTTC  21219
+                      |||||              ||||                          
+21456-25517     1127 -AACAG--------------GCTG--------------------------   1135
+
+NC_045512.2    21220 GCATGGTGGACAGCCTTTGTTACTAATGTGAATGCGTCATCATCTGAAGC  21269
+                       |.||||        |||     ||||||                    
+21456-25517     1136 --AAGGTG--------TTG-----AATGTG--------------------   1150
+
+NC_045512.2    21270 ATTTTTAATTGGATGTAATTATCTTGGCAAACCACGCGAACAAATAGATG  21319
+                     ||||||                       .|||.|               
+21456-25517     1151 ATTTTT-----------------------CACCTC---------------   1162
+
+NC_045512.2    21320 GTTATGTCATGCATGCAAATTACATATTTTGGAGGAATACAAATCCAATT  21369
+                      ||.||||..||                          |||..|||   |
+21456-25517     1163 -TTCTGTCTGGC--------------------------ACACCTCC---T   1182
+
+NC_045512.2    21370 CAGTTGTCTTCCTATTCTTTATTTGACATGAGTAAATTTCCCCTTAAATT  21419
+                     |||             .|||||            ||||||          
+21456-25517     1183 CAG-------------GTTTAT------------AATTTC----------   1197
+
+NC_045512.2    21420 AAGGGGTACTGCTGTTATGTCTTTAAAAGAAGGTCAAAT--CAATGATAT  21467
+                     |||         .|||..||.||||         |.|||  ||||.||| 
+21456-25517     1198 AAG---------CGTTTGGTTTTTA---------CCAATTGCAATTATA-   1228
+
+NC_045512.2    21468 GATTTTATCTCTTCTTAGTAAAGGTAGACTTATAATTAGAGAAAACAACA  21517
+                                .|||||..|||                            
+21456-25517     1229 -----------ATCTTACCAAA----------------------------   1239
+
+NC_045512.2    21518 GAGTTG-------TTATTTCTAGTGATGTTCTTGTTAACAACTAAACGAA  21560
+                        |||       ||.||||| |||                         
+21456-25517     1240 ---TTGCTTTCACTTTTTTCT-GTG-------------------------   1260
+
+NC_045512.2    21561 CAATGTTTGTTTTTCTTGTTTTATTGCCACTAGTCTCTAGTCAGTGTGTT  21610
+                      ||||   .||||.||||                   ||||||       
+21456-25517     1261 -AATG---ATTTTACTTG-------------------TAGTCA-------   1280
+
+NC_045512.2    21611 AATCTTACAACCAGAACTCAATTACCCCCT-GCATACACTAATTCTTTCA  21659
+                     |||.|..|.|.|||    |||||    .|| ||| ||..|.||||||   
+21456-25517     1281 AATATCTCCAGCAG----CAATT----GCTAGCA-ACTGTTATTCTT---   1318
+
+NC_045512.2    21660 CACGTGGTGTTT--ATTACCCTGACAAAGTTTTCAGATC--CTCAGTTTT  21705
+                     ||| ||.| |||  |||||          ||||||.|.|  ||.|||.|.
+21456-25517     1319 CAC-TGAT-TTTGGATTAC----------TTTTCATACCCACTTAGTATG   1356
+
+NC_045512.2    21706 ACATTC-AACTCAGGACTTGTTCTTACCTTTCTTTTCCAATGTTACTTGG  21754
+                     |.||.| |.|||||                          |||||    |
+21456-25517     1357 AAATCCGATCTCAG--------------------------TGTTA----G   1376
+
+NC_045512.2    21755 TTCCATGCTATACATGTCTCTGGGACCAATGGTACTAAGAGGTTTGATAA  21804
+                     |||  ||||             ||.|||                  |||.
+21456-25517     1377 TTC--TGCT-------------GGTCCA------------------ATAT   1393
+
+NC_045512.2    21805 CCCTGTCCTACCATTTAATGAT----GGTGTTTATTTTGCTTCCACTGAG  21850
+                     |||.|        ||||||.||    .||..|| ||.|..|.||||    
+21456-25517     1394 CCCAG--------TTTAATTATAAACAGTCCTT-TTCTAATCCCAC----   1430
+
+NC_045512.2    21851 AAGTCTAACATAATAAGAGGCTGGATTTTTGGTACTACTTTAGATTCGAA  21900
+                                             ||.||||     |.|||||   ||| 
+21456-25517     1431 ------------------------ATGTTTG-----ATTTTAG---CGA-   1447
+
+NC_045512.2    21901 GACCCAGTCCCTACTTATTGTTAATAACGCTACTAATGTTGTTATTA--A  21948
+                         |.||.||          |.|||||..|||||      .|||||  |
+21456-25517     1448 ----CTGTTCC----------TCATAACCTTACTA------CTATTACTA   1477
+
+NC_045512.2    21949 AGTCTGTGAATTTCAATTTTGTAATGATCCATTTTTGGGTG-TTTATTAC  21997
+                     ||.||.|.||.|.||                         | |.|||||.
+21456-25517     1478 AGCCTCTTAAGTACA-------------------------GCTATATTAA   1502
+
+NC_045512.2    21998 CACAAAAACAACAAAAGTTGGATGGAAAGTGAGTTCAGAGTTTATTCTAG  22047
+                     |                         |||||...||     .|.||||  
+21456-25517     1503 C-------------------------AAGTGCTCTC-----GTCTTCT--   1520
+
+NC_045512.2    22048 TGCGAATAATTGCACTTTTGAATATGTCTCTCAGCCTTTTCTTA-TGGAC  22096
+                     |.|..||.||.|.||   ||||   ||..|||||       ||| ||.||
+21456-25517     1521 TTCTGATGATCGTAC---TGAA---GTACCTCAG-------TTAGTGAAC   1557
+
+NC_045512.2    22097 CTTGAAGGAAAACAGGGTAATTTCAAAAATCTTAGGGAATTTGTGTTTAA  22146
+                                    |.|||  ||||.|.||      |...|||||    
+21456-25517     1558 ---------------GCTAA--TCAATACTC------ACCCTGTGT----   1580
+
+NC_045512.2    22147 GAATATTGATGGTTATTTTAAAATATATTCTAAGCACACGCCTATTAATT  22196
+                                           ||..|||.|         ||.||..|.|
+21456-25517     1581 ----------------------ATCCATTGT---------CCCATCCACT   1599
+
+NC_045512.2    22197 TAGTGCGTGATCTCCCTCAGGGTTTTTCGGCTTTAGAACCATTGGTAGAT  22246
+                       |||.|.||                        |||     .||| |||
+21456-25517     1600 --GTGTGGGA------------------------AGA-----CGGT-GAT   1617
+
+NC_045512.2    22247 TTGCCAATAGGTATTAACATCACTAGGTTTCAAACTTTACTTGCTTTACA  22296
+                                |||||       ||||    ||||  .|||..||..|| 
+21456-25517     1618 -----------TATTA-------TAGG----AAAC--AACTATCTCCAC-   1642
+
+NC_045512.2    22297 TAGAAGTTATTTGACTCCTGGTGATTCTTCTTCAGGTTGGACAGCTGG--  22344
+                     |.||||           .|||||                    |||||  
+21456-25517     1643 TTGAAG-----------GTGGTG--------------------GCTGGCT   1661
+
+NC_045512.2    22345 TGCTGCAGCTTATTATGTGGGTTATCTTCAAC-----CTAGGACTTTTCT  22389
+                     ||.|||       || ||||      .|||||     |.|.||||     
+21456-25517     1662 TGTTGC-------TA-GTGG------CTCAACTGTTGCCATGACT-----   1692
+
+NC_045512.2    22390 ATTAAAATATAATGAAAATGGAACCATTACAGATGCTGTAGACTGTGCAC  22439
+                                         ||.|.||||||||||     |.||.||   
+21456-25517     1693 --------------------GAGCAATTACAGATG-----GGCTTTG---   1714
+
+NC_045512.2    22440 TTGACCCTCTCTCAGAAACAAAGTGTACGTTGAAATCCTTCACTGTAGAA  22489
+                                             |||            |.||.||..||
+21456-25517     1715 ------------------------GTA------------TTACAGTTCAA   1728
+
+NC_045512.2    22490 AAAGGAATCTATCAAACTTCTAACTTTAGAGTCCAACCAACAGAATCTAT  22539
+                     .|.||                     ||.||.|  |||||       ||.
+21456-25517     1729 TATGG---------------------TACAGAC--ACCAA-------TAG   1748
+
+NC_045512.2    22540 TGTTAGATTTCCTAATATTACAAACTTGTGCCCTTTTGGTGAAGTTTTTA  22589
+                     |||    ||.||       .|||.||             ||||.||..||
+21456-25517     1749 TGT----TTGCC-------CCAAGCT-------------TGAATTTGCTA   1774
+
+NC_045512.2    22590 ACGCCACCAGATTTGCATCTGTTTATGCTTGGAACAGGAAGAGAATCA-G  22638
+                     |.|.|||.|.|.||||.|||                      .|||.| |
+21456-25517     1775 ATGACACAAAAATTGCCTCT----------------------CAATTAGG   1802
+
+NC_045512.2    22639 CAACTGTGTTGCTGATTATTCTGTCCTATATAATTCCGCATCATTTTCCA  22688
+                     |||.||.||   .||.|||||   |||.|||                   
+21456-25517     1803 CAATTGCGT---GGAATATTC---CCTCTAT-------------------   1827
+
+NC_045512.2    22689 CTTTTAAGTGTTATGG--AGTGTCTCCTACTAAATTAAATGATCTCTGCT  22736
+                           .|||||..||  .|||                       .||.|
+21456-25517     1828 ------GGTGTTTCGGGCCGTG-----------------------GTGTT   1848
+
+NC_045512.2    22737 TTAC-TAATGTCTATGCAGATTCATTTGTAATTAGAGGTGAT-GAAGTCA  22784
+                     ||.| .|||     ||||    ||..|||      |||||.| ||   ||
+21456-25517     1849 TTTCAGAAT-----TGCA----CAGCTGT------AGGTGTTCGA---CA   1880
+
+NC_045512.2    22785 GACAAATCGCTCCAGGGCAAACTGGAAAGATTGCTGATTATAATTATAAA  22834
+                     |           |||.||            ||  ||.||||.||    ..
+21456-25517     1881 G-----------CAGCGC------------TT--TGTTTATGAT----GC   1901
+
+NC_045512.2    22835 TTACCAGATGATTTTACAGGCTGCGTTATAGCTTGGAATTCTAACAATCT  22884
+                     .|||||||  |||               ||| ||||    |||       
+21456-25517     1902 GTACCAGA--ATT---------------TAG-TTGG----CTA-------   1922
+
+NC_045512.2    22885 TGATTCTAAGGTTGGTGGTAATTATAATTACCTGTATAGATTGTTTAGGA  22934
+                     |.|||||   |.||.|||.||.||                          
+21456-25517     1923 TTATTCT---GATGATGGCAACTA--------------------------   1943
+
+NC_045512.2    22935 AGTCTAATCTCAAACCT-TTTGAGAGAGATATTTCAACTGAAATCTATCA  22983
+                        |||         || ||||.|.|                        
+21456-25517     1944 ---CTA---------CTGTTTGCGTG------------------------   1957
+
+NC_045512.2    22984 GGCCGGTAGCACACCTTGTAATGGTGTTGAAGGTTTTAATTGTTACTTTC  23033
+                                   |||||..|.|||||          ..||||.||.||
+21456-25517     1958 --------------CTTGTGTTAGTGTT----------CCTGTTTCTGTC   1983
+
+NC_045512.2    23034 CTTTACAATCATATGGTTTCCAACCCACTAATGGTGTTGGTTACCAACCA  23083
+                            ||| ||||                                  |
+21456-25517     1984 -------ATC-TATG----------------------------------A   1991
+
+NC_045512.2    23084 TACAGAGTAGTAGTACTTTCTTTTGAACTTCTACATGCACCAGCAACTGT  23133
+                     ||.|||                                            
+21456-25517     1992 TAAAGA--------------------------------------------   1997
+
+NC_045512.2    23134 TTGTGGACCTAAAA---AGTCTACT-AATTTGGTTAAAAACAAATGTGTC  23179
+                           |.||||||   |..||||| .|||||||        |.||| |.
+21456-25517     1998 ------AACTAAAACCCACGCTACTCTATTTGGT--------AGTGT-TG   2032
+
+NC_045512.2    23180 AATTTCAACTTCAATGGTTTAACAGGCACAGGTGTTCTTACTGAGTCTAA  23229
+                     .||.|.||                  ||||..|.||| |||...||||  
+21456-25517     2033 CATGTGAA------------------CACATTTCTTC-TACCATGTCT--   2061
+
+NC_045512.2    23230 CAAAAAGTTTCTGCCTTTCCAACAATTTGGCAGAGA-CATTGCTGACACT  23278
+                     |||     |.||.||.|||.|          .|.|| ||.||||.|.||.
+21456-25517     2062 CAA-----TACTCCCGTTCTA----------CGCGATCAATGCTTAAACG   2096
+
+NC_045512.2    23279 ACTGATGCTGTCCGTGATCCACAGACACTTGAGATTCTTGACATTACACC  23328
+                     .|                            ||||||||..|.||..|.||
+21456-25517     2097 GC----------------------------GAGATTCTACATATGGCCCC   2118
+
+NC_045512.2    23329 ATGTTCTTTTGGTGGTGTCAGTGTTATAACACCAGGAACAAATACTTCTA  23378
+                     .|               ||||       |||||.|          ||   
+21456-25517     2119 CT---------------TCAG-------ACACCTG----------TT---   2133
+
+NC_045512.2    23379 ACCAGGTTGCTGTTCTTTATCAGGA--TGTTAACTGCACAGAAGTCCCTG  23426
+                         ||||| |||.||     ||||  ||||||           |.|||.
+21456-25517     2134 ----GGTTG-TGTCCT-----AGGACTTGTTAA-----------TTCCTC   2162
+
+NC_045512.2    23427 TTGCTATTCATGCAGA-----TCAACTTACTCCTACTTGGCGTGTTTATT  23471
+                     ||  |.|||  |.|||     .|||.||  .||| |||||     |.|.|
+21456-25517     2163 TT--TGTTC--GTAGAGGACTGCAAGTT--GCCT-CTTGG-----TCAAT   2200
+
+NC_045512.2    23472 CTACAGGTTCTAATGTTTTTC---AAACACGTGCAGGCTGTTTAATAGGG  23518
+                     ||     .||| .||.|.|||   |.||||                    
+21456-25517     2201 CT-----CTCT-GTGCTCTTCCTGACACAC--------------------   2224
+
+NC_045512.2    23519 GCT-GAACATGTCAACAACTCATATG-AGTGTGACATACCCATTGGTGCA  23566
+                      || |.|| |.|| |||.|||    | ||||||     |.|..||.|.||
+21456-25517     2225 -CTAGTAC-TCTC-ACACCTC----GCAGTGTG-----CGCTCTGTTCCA   2262
+
+NC_045512.2    23567 GGT-ATATGCGCTAGTTATCAGACTCAGACTAATTCTCCTCGGCGGGCAC  23615
+                     ||| |.|||||||.|..|||                           || 
+21456-25517     2263 GGTGAAATGCGCTTGGCATC---------------------------CA-   2284
+
+NC_045512.2    23616 GTAGTGTAGCTAGTCAATCCATCATTGCCTACACTATGTCACTTGGTGCA  23665
+                           |.||| .|.||| ||||          |||| |||   |||..|
+21456-25517     2285 ------TTGCT-TTTAAT-CATC----------CTAT-TCA---GGTTGA   2312
+
+NC_045512.2    23666 GAAAATT--CAGTTGCTTACTCTAA--TAACTCTATTGCCATACCCACAA  23711
+                     ..||.||  .|||.| |||.|.|||  |||.|        ||||||||.|
+21456-25517     2313 TCAACTTAATAGTAG-TTATTTTAAATTAAGT--------ATACCCACTA   2353
+
+NC_045512.2    23712 ATTTTACTATTAGTGTTACCACAG----AAATTCTACCAGTGTCTATGAC  23757
+                     |||||.|..||.||||.| |.|||    |.||||...||         ||
+21456-25517     2354 ATTTTTCCTTTGGTGTGA-CTCAGGAGTACATTCAGACA---------AC   2393
+
+NC_045512.2    23758 CA---AGACA---TCAGTAGATTGTACAATGTACATTTG---TGGTGATT  23798
+                     ||   |||.|   .|.||.|||||||.|..||||.||||   ||||  ||
+21456-25517     2394 CATTCAGAAAGTTACTGTTGATTGTAAACAGTACGTTTGCAATGGT--TT   2441
+
+NC_045512.2    23799 CAACTGAA---TGCAGCAATCTTTTGTTGC---AATATGG-CAGTTTTTG  23841
+                     |  |.|||   || |||||    ||..|||   |.||||| ||| |||||
+21456-25517     2442 C--CAGAAGTGTG-AGCAA----TTACTGCGCGAGTATGGCCAG-TTTTG   2483
+
+NC_045512.2    23842 TACACAATTAAACCGTGCTTTAACTGG----AATAGCTGTTGAACAAGAC  23887
+                     |.|..||.||||||..|||.|...|||    |||     ||         
+21456-25517     2484 TTCCAAAATAAACCAGGCTCTCCATGGTGCCAAT-----TT---------   2519
+
+NC_045512.2    23888 AAAAACAC-CCAAGAAGTTTTTGCACAAGTCAAACAAATTT---------  23927
+                           || |||.||.|.||.||.||  ||      |||||         
+21456-25517     2520 ------ACGCCAGGATGATTCTGTAC--GT------AATTTGTTTGCGAG   2555
+
+NC_045512.2    23928 -----ACA------AAACACCACCAATTA---AAGATTTTGGTGGT---T  23960
+                          |.|      ||.||.|.||.||.|   .||.||||||.|||   |
+21456-25517     2556 CGTGAAAAGCTCTCAATCATCTCCTATCATACCAGGTTTTGGAGGTGACT   2605
+
+NC_045512.2    23961 TTAATTTTTCACAAATATTACCAGATCC---ATCAAAACCAAGCAAGAGG  24007
+                     |||||||..|||...||..|||.|.|.|   |||.|   |..|||    |
+21456-25517     2606 TTAATTTGACACTTCTAGAACCTGTTTCTATATCTA---CTGGCA----G   2648
+
+NC_045512.2    24008 TCAT-------------TTATTGAAGATCTACTTTTCAACAAAGTGACAC  24044
+                     ||.|             .||||||.|||.|.||.||..|||||||.||..
+21456-25517     2649 TCGTAGTGCACGTAGTGCTATTGAGGATTTGCTATTTGACAAAGTCACTA   2698
+
+NC_045512.2    24045 TTGCAGATGCTGGCTTCATCAAACAATATGGTGATTGC------CTTGGT  24088
+                     |.||.|||.||||.|..||..||...||.|.|||||||      |..|||
+21456-25517     2699 TAGCTGATCCTGGTTATATGCAAGGTTACGATGATTGCATGCAGCAAGGT   2748
+
+NC_045512.2    24089 ----GATATTGCTGCTAGAGACCTCATTTGTGCACAA-AAGTTTAACGGC  24133
+                         .||    |.|||.|.||.||.||||||||.||| |.||     |||
+21456-25517     2749 CCAGCAT----CAGCTCGTGATCTTATTTGTGCTCAATATGT-----GGC   2789
+
+NC_045512.2    24134 --CTTAC--TGTTTTGCCACCTTTGCTCACAGATG-AAATGATTGCTCAA  24178
+                       .||||  .||.||.||.|||   ||.|..|||| .||| ||.|   ||
+21456-25517     2790 TGGTTACAAAGTATTACCTCCT---CTTATGGATGTTAAT-ATGG---AA   2832
+
+NC_045512.2    24179 ------TACACTT-------------CTGCACTGTTAGCGGGTACAATCA  24209
+                           ||.||||             |.|||    ||||.||        
+21456-25517     2833 GCCGCGTATACTTCATCTTTGCTTGGCAGCA----TAGCAGG--------   2870
+
+NC_045512.2    24210 CTTCTGGTTGGACCTTTGGTGCAGG------------TGCTGC-ATTACA  24246
+                      |..|||.|||||      |||.||            |||||| |||   
+21456-25517     2871 -TGTTGGCTGGAC------TGCTGGCTTATCCTCCTTTGCTGCTATT---   2910
+
+NC_045512.2    24247 AATACCATTTGC------TATGCAAATGGC--TTATAGGTTTAATGGTAT  24288
+                         ||||||||      |||        |  |||||||||.||.|||.|
+21456-25517     2911 ----CCATTTGCACAGAGTAT--------CTTTTATAGGTTAAACGGTGT   2948
+
+NC_045512.2    24289 TGGAGTTACACAGAATGTTCTCTATGAGAACCAAAAATTGATTGCCAACC  24338
+                     |||..||||.||..|.|||||.|..|||||||||||..|.||||||||..
+21456-25517     2949 TGGCATTACTCAACAGGTTCTTTCAGAGAACCAAAAGCTTATTGCCAATA   2998
+
+NC_045512.2    24339 AATTTAAT---------AGTGCTATTGGCAAAATTCAAGACTCACTTTCT  24379
+                     |.||||||         .|.|||||  |||||   ||.|..|||||    
+21456-25517     2999 AGTTTAATCAGGCTCTGGGAGCTAT--GCAAA---CAGGCTTCACT----   3039
+
+NC_045512.2    24380 TCCACAGCAAGTGCA-CTT----GGAAAACTTCAAGATGTGGTCAACCAA  24424
+                        |||.|.|.||.| |||    |  ||..||||.||||..||.|||.|.
+21456-25517     3040 ---ACAACTAATGAAGCTTTTCAG--AAGGTTCAGGATGCTGTGAACAAC   3084
+
+NC_045512.2    24425 AATGCACAAGCTTTAAACACGCTTGTTAAACAACTTAGC----------T  24464
+                     ||||||||.|||             .||..|||.|||||          |
+21456-25517     3085 AATGCACAGGCT-------------CTATCCAAATTAGCTAGCGAGCTAT   3121
+
+NC_045512.2    24465 CCAA---TTTTGGTGCAATTTCAAG--TGTTTTAAATGATATCCTTTCAC  24509
+                     |.||   |||||||||.||||| .|  |.|.||..| ||.|||.|...||
+21456-25517     3122 CTAATACTTTTGGTGCTATTTC-CGCCTCTATTGGA-GACATCATACAAC   3169
+
+NC_045512.2    24510 GTCTTGACAAAGTTGAGGCT-------GAAGTGCAAATTGATAGGTTGAT  24552
+                     ||||||   |.|||    ||       ||.|..|||||            
+21456-25517     3170 GTCTTG---ATGTT----CTCGAACAGGACGCCCAAAT------------   3200
+
+NC_045512.2    24553 CACAGGCAGACTTCAAAGT--TTGCAGACATATGTGACTCAACAATTAAT  24600
+                        ||.|||||||   |.|  |.||.|     |.|||  |||||.|.|||
+21456-25517     3201 ---AGACAGACTT---ATTAATGGCCG-----TTTGA--CAACACTAAAT   3237
+
+NC_045512.2    24601 TAGAGC------TGCAGAAATCAG-AGCT-------------TCTGCTAA  24630
+                         ||      ||||     ||| ||||             ||.|||..
+21456-25517     3238 ----GCTTTTGTTGCA-----CAGCAGCTTGTTCGTTCCGAATCAGCTGC   3278
+
+NC_045512.2    24631 TCTTGCTGCT------ACTAA----AATGTCA--GAGTGTGTACTTGG-A  24667
+                     ||||.|.|||      .||||    ||.||||  |||||||| |..|| |
+21456-25517     3279 TCTTTCCGCTCAATTGGCTAAAGATAAAGTCAATGAGTGTGT-CAAGGCA   3327
+
+NC_045512.2    24668 CAATCAAAAAGAGTT---GATTTTTGTGGAAAGGGCTATCATCTTATGTC  24714
+                     |||||  .|||.|||   || |||||.||..|.|||...|||.|..||||
+21456-25517     3328 CAATC--CAAGCGTTCTGGA-TTTTGCGGTCAAGGCACACATATAGTGTC   3374
+
+NC_045512.2    24715 CTTCCCTCAGTCA--GCACCTCATGG--TGTAGTCTTCTTGCATGTGACT  24760
+                     |||...|  ||.|  ||.|||.||||  |.||  ||||.|||||||...|
+21456-25517     3375 CTTTGTT--GTAAATGCCCCTAATGGCCTTTA--CTTCATGCATGTTGGT   3420
+
+NC_045512.2    24761 TATGTCCCTGCACAAGAAAAG-AACTTCACA-----------ACTGCTCC  24798
+                     |||..||||          || |||  ||||           .|||||..
+21456-25517     3421 TATTACCCT----------AGCAAC--CACATTGAGGTTGTTTCTGCTTA   3458
+
+NC_045512.2    24799 TGCCATTTGTCATG---------------ATGGAAAAGCACACTTTCCTC  24833
+                     ||...||||..|||               ||.|.|.|||       ||..
+21456-25517     3459 TGGTCTTTGCGATGCAGCTAACCCTACTAATTGTATAGC-------CCCT   3501
+
+NC_045512.2    24834 GTGAA-GGTGTCTTTGTTTCAAATGGCAC-----ACACT-GGTTTGTAAC  24876
+                     ||.|| ||...||||.||  |||    ||     ||||| ||.||||   
+21456-25517     3502 GTTAATGGCTACTTTATT--AAA----ACTAATAACACTAGGATTGT---   3542
+
+NC_045512.2    24877 ACAAAGGAAT--------------------TTTTATGAACCACAAATCAT  24906
+                       ..|.||.|                    ||.||||.|||..|...|||
+21456-25517     3543 --TGATGAGTGGTCATATACTGGCTCGTCCTTCTATGCACCTGAGCCCAT   3590
+
+NC_045512.2    24907 TACTACAGACAACACATTTGTGTCTGGTAACTGTGATGTTGTA--ATAGG  24954
+                     |||..|....||.||            |||.|   ||||||.|  |.|||
+21456-25517     3591 TACCTCCCTTAATAC------------TAAGT---ATGTTGCACCACAGG   3625
+
+NC_045512.2    24955 AATTGTC--AACAACACAGTT-TATGATCCT-----------TT----GC  24986
+                        ||.|  |.|||.|||.|| ||..|.|||           ||    ||
+21456-25517     3626 ---TGACATACCAAAACATTTCTACTAACCTCCCTCCTCCTCTTCTCGGC   3672
+
+NC_045512.2    24987 A-----ACCTGAATTAGACTCATTCAAGGAGGAGTTAGATAAATATTTTA  25031
+                     |     |||.|.||| |||   |||.|.||.|||||.|||.|.|.|||.|
+21456-25517     3673 AATTCCACCGGGATT-GAC---TTCCAAGATGAGTTGGATGAGTTTTTCA   3718
+
+NC_045512.2    25032 AGAATCATACATCACCAGATGT---TGATTTAGGTGACATCTCTGGC---  25075
+                     |.|||..|  |.|||||| |.|   |.||||.|||    ||.||..|   
+21456-25517     3719 AAAATGTT--AGCACCAG-TATACCTAATTTTGGT----TCCCTAACACA   3761
+
+NC_045512.2    25076 -ATTAATGCTTCAGTTGTAAACATT------------CAAAAAGAAATTG  25112
+                      ||||||.||          |||||            |.|..|||..|||
+21456-25517     3762 GATTAATACT----------ACATTACTCGATCTTACCTACGAGATGTTG   3801
+
+NC_045512.2    25113 ACCGCCTCAATGAGGTTGCCAAGAATTTA--------AATGAATCTCTCA  25154
+                      .|.|.||||         ||||...|||        |||||.|||..||
+21456-25517     3802 -TCTCTTCAA---------CAAGTTGTTAAAGCCCTTAATGAGTCTTACA   3841
+
+NC_045512.2    25155 TCGATCTCCAAGAACTTGGAAAGTATGAGCAGTATATAAAATGGCCATGG  25204
+                     |.||.||..||||.|||||.||.|||....|.||.|..||||||||.|||
+21456-25517     3842 TAGACCTTAAAGAGCTTGGCAATTATACTTATTACAACAAATGGCCGTGG   3891
+
+NC_045512.2    25205 TACATTTGGCTAGGTTTTATAGCT-GGCTTGATTGCCATAG---TAATG-  25249
+                     |||||||||||.|||||.||.||| |||||| |||||.|||   | ||| 
+21456-25517     3892 TACATTTGGCTTGGTTTCATTGCTGGGCTTG-TTGCCTTAGCTCT-ATGC   3939
+
+NC_045512.2    25250 GTGACAATT----ATGCTTTGCTGTA-TGACCAGTTG---------CTGT  25285
+                     ||    .||    ||.||.|||||.| ||    ||||         ||||
+21456-25517     3940 GT----CTTCTTCATACTGTGCTGCACTG----GTTGTGGCACAAACTGT   3981
+
+NC_045512.2    25286 AGTTG-----TCTCAAGGGCTGTTGTTCTTGTGGATCCTGCTGCAAATTT  25330
+                     |  ||     .||.|||.|...|.|||.|||| |||        |.||..
+21456-25517     3982 A--TGGGAAAACTTAAGTGTAATCGTTGTTGT-GAT--------AGATAC   4020
+
+NC_045512.2    25331 GATGAAGACGACTCT-GAGCCAGTGCTCA-AAGGAGTCAAATTACAT-TA  25377
+                     ||.|||.||||| || ||||     |.|| ||||        |.||| |.
+21456-25517     4021 GAGGAATACGAC-CTCGAGC-----CGCATAAGG--------TTCATGTT   4056
+
+NC_045512.2    25378 CACATAA  25384
+                     ||| |||
+21456-25517     4057 CAC-TAA   4062
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,161 @@
+########################################
+# Program: needle
+# Rundate: Tue  4 Feb 2025 18:50:54
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20250204-185049-0136-56216348-p1m.asequence
+#    -bsequence emboss_needle-I20250204-185049-0136-56216348-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YP_009724390.1
+# 2: YP_009047204.1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1454
+# Identity:     434/1454 (29.8%)
+# Similarity:   658/1454 (45.3%)
+# Gaps:         282/1454 (19.4%)
+# Score: 1564.0
+# 
+#
+#=======================================
+
+YP_009724390.      1 ----MFVFLVLL-----------PLVSSQCVNLTTRTQL-----PPAYTN     30
+                         :|:.:.||           ..|.|.|:.:..:...     |.....
+YP_009047204.      1 MIHSVFLLMFLLTPTESYVDVGPDSVKSACIEVDIQQTFFDKTWPRPIDV     50
+
+YP_009724390.     31 SFTRGVYYPDKVFRSSVLHSTQDLFLPF---FSNVTWFHAIHVSGTNGTK     77
+                     |...|:.||.....|::..:.|.|| |:   ..::..:.|.|.:||...|
+YP_009047204.     51 SKADGIIYPQGRTYSNITITYQGLF-PYQGDHGDMYVYSAGHATGTTPQK     99
+
+YP_009724390.     78 RF----DNPVLPF-------------NDGVYFASTEKSNIIR--------    102
+                     .|    ...|..|             :.|....|...|..||        
+YP_009047204.    100 LFVANYSQDVKQFANGFVVRIGAAANSTGTVIISPSTSATIRKIYPAFML    149
+
+YP_009724390.    103 GWIFGTTLDSK-----TQSLLIVNNATNVVIKVCEFQFCNDPFLGVY---    144
+                     |...|...|.|     ..:|:::.:....:::.  |....:|..|.:   
+YP_009047204.    150 GSSVGNFSDGKMGRFFNHTLVLLPDGCGTLLRA--FYCILEPRSGNHCPA    197
+
+YP_009724390.    145 ---------YH---------KNNKSWMESEFRVYSSANNCTFEY---VSQ    173
+                              ||         ..|::...:.|:.|.:..||||.|   :::
+YP_009047204.    198 GNSYTSFATYHTPATDCSDGNYNRNASLNSFKEYFNLRNCTFMYTYNITE    247
+
+YP_009724390.    174 PFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSAL    223
+                     ..:::..|.....:.:..|..:.:|.|                       
+YP_009047204.    248 DEILEWFGITQTAQGVHLFSSRYVDLY-----------------------    274
+
+YP_009724390.    224 EPLVDLPIGINITRFQTL---------LALHRSYLTPGDSSSGWTAGAAA    264
+                             |.|:.:|.||         ..:..|..:.......|    ||
+YP_009047204.    275 --------GGNMFQFATLPVYDTIKYYSIIPHSIRSIQSDRKAW----AA    312
+
+YP_009724390.    265 YYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQ    314
+                     :||..|||.||||.::.:|.|..|:||..:.||:..|:.:||.||.|:|.
+YP_009047204.    313 FYVYKLQPLTFLLDFSVDGYIRRAIDCGFNDLSQLHCSYESFDVESGVYS    362
+
+YP_009724390.    315 TSNFRVQPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVAD    364
+                     .|:|..:|:.|:|....... |.|..:.:.|. ..||.:.|...:||..:
+YP_009047204.    363 VSSFEAKPSGSVVEQAEGVE-CDFSPLLSGTP-PQVYNFKRLVFTNCNYN    410
+
+YP_009724390.    365 YSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSFVIRGDEVRQIAPGQ    414
+                     .:.|.:..|.:.|.|..:||..:...|::::..|.|.........::...
+YP_009047204.    411 LTKLLSLFSVNDFTCSQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSS    460
+
+YP_009724390.    415 TGKIADYNYKLPDDFTGC-VIAWNSNNLDSKVGG-NYNYLYRLFRKSNLK    462
+                     .|.|:.:|||.......| ::|...:||.:.... .|:|:.:..|..:  
+YP_009047204.    461 AGPISQFNYKQSFSNPTCLILATVPHNLTTITKPLKYSYINKCSRLLS--    508
+
+YP_009724390.    463 PFERDISTEIYQAGS----TPCNGV------EGFNCY----FPLQSYGFQ    498
+                         |..||:.|..:    :||..:      |..:.|    .||:..|:.
+YP_009047204.    509 ----DDRTEVPQLVNANQYSPCVSIVPSTVWEDGDYYRKQLSPLEGGGWL    554
+
+YP_009724390.    499 PTNGVGYQPYRVVVLSFELLHAPAT----VCGPKKSTNLVK-----NKCV    539
+                     ..:|........:.:.|.:.....|    ||...:..|..|     ..||
+YP_009047204.    555 VASGSTVAMTEQLQMGFGITVQYGTDTNSVCPKLEFANDTKIASQLGNCV    604
+
+YP_009724390.    540 NFNFNGLTGTGVLTESNKKFLPFQQFGRDIADTTDAVRDPQTLEILDITP    589
+                     .::..|::|.||........:..|:|      ..||.:            
+YP_009047204.    605 EYSLYGVSGRGVFQNCTAVGVRQQRF------VYDAYQ------------    636
+
+YP_009724390.    590 CSFGGVSVITPGTNTSNQVAVLYQDVN------CTEVPVAI--------H    625
+                                     |.|.....|.|      |..|||::        |
+YP_009047204.    637 ----------------NLVGYYSDDGNYYCLRACVSVPVSVIYDKETKTH    670
+
+YP_009724390.    626 A--------DQLTPTWRVYSTGS-----------NVFQTRAGCLIGAEHV    656
+                     |        :.::.|...||..:           ...||..||::|.  |
+YP_009047204.    671 ATLFGSVACEHISSTMSQYSRSTRSMLKRRDSTYGPLQTPVGCVLGL--V    718
+
+YP_009724390.    657 NNSY---ECDIPIGAGICASYQT-QTNSPRRARSVASQSIIAYTMSLGAE    702
+                     |:|.   :|.:|:|..:||...| .|.:||..|||..:..:|        
+YP_009047204.    719 NSSLFVEDCKLPLGQSLCALPDTPSTLTPRSVRSVPGEMRLA--------    760
+
+YP_009724390.    703 NSVAYSN-------NS----IAIPTNFTISVTTEILPVSMTKTSVDCTMY    741
+                      |:|:::       ||    ::|||||:..||.|.:..::.|.:|||..|
+YP_009047204.    761 -SIAFNHPIQVDQLNSSYFKLSIPTNFSFGVTQEYIQTTIQKVTVDCKQY    809
+
+YP_009724390.    742 ICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKT    791
+                     :|....:|..||.:||.||:::|:||.|..:.||.:.:.:||.||....:
+YP_009047204.    810 VCNGFQKCEQLLREYGQFCSKINQALHGANLRQDDSVRNLFASVKSSQSS    859
+
+YP_009724390.    792 PPIKDFGG-FNFSQILP---DPSKPSKRSFIEDLLFNKVTLADAGFIKQY    837
+                     |.|..||| ||.:.:.|   .....|.||.||||||:|||:||.|:::.|
+YP_009047204.    860 PIIPGFGGDFNLTLLEPVSISTGSRSARSAIEDLLFDKVTIADPGYMQGY    909
+
+YP_009724390.    838 GDCL--GDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAGTITSG    885
+                     .||:  |..:||||||||...|..|||||:...|.|.|||:||......|
+YP_009047204.    910 DDCMQQGPASARDLICAQYVAGYKVLPPLMDVNMEAAYTSSLLGSIAGVG    959
+
+YP_009724390.    886 WTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQ    935
+                     ||.|..:...||||..:.||.||:|:||.||.||||||||:||.|:|.:|
+YP_009047204.    960 WTAGLSSFAAIPFAQSIFYRLNGVGITQQVLSENQKLIANKFNQALGAMQ   1009
+
+YP_009724390.    936 DSLSSTASALGKLQDVVNQNAQALNTLVKQLSSNFGAISSVLNDILSRLD    985
+                     ...::|..|..|:||.||.|||||:.|..:||:.|||||:.:.||:.|||
+YP_009047204.   1010 TGFTTTNEAFQKVQDAVNNNAQALSKLASELSNTFGAISASIGDIIQRLD   1059
+
+YP_009724390.    986 KVEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLG   1035
+                     .:|.:.||||||.|||.:|..:|.|||:|:.....||.||..|::|||..
+YP_009047204.   1060 VLEQDAQIDRLINGRLTTLNAFVAQQLVRSESAALSAQLAKDKVNECVKA   1109
+
+YP_009724390.   1036 QSKRVDFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAIC---   1082
+                     ||||..|||:|.|::||..:||:|:.|:||.|.|:......:|..:|   
+YP_009047204.   1110 QSKRSGFCGQGTHIVSFVVNAPNGLYFMHVGYYPSNHIEVVSAYGLCDAA   1159
+
+YP_009724390.   1083 HDGKAHFPREGVFV-SNGT----HWFVTQRNFYEPQIITTDNT-FVSGNC   1126
+                     :......|..|.|: :|.|    .|..|..:||.|:.||:.|| :|:.. 
+YP_009047204.   1160 NPTNCIAPVNGYFIKTNNTRIVDEWSYTGSSFYAPEPITSLNTKYVAPQ-   1208
+
+YP_009724390.   1127 DVVIGIVNNTVYDPLQPEL------DSFKEELDKYFKNHTSPDVDLGDIS   1170
+                          :....:...|.|.|      ..|::|||::|||.::...:.|.::
+YP_009047204.   1209 -----VTYQNISTNLPPPLLGNSTGIDFQDELDEFFKNVSTSIPNFGSLT   1253
+
+YP_009724390.   1171 GINASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPWYIWLGF   1220
+                     .||.:::::..|:..|.:|.|.||||.|||:|||.|..|.||||||||||
+YP_009047204.   1254 QINTTLLDLTYEMLSLQQVVKALNESYIDLKELGNYTYYNKWPWYIWLGF   1303
+
+YP_009724390.   1221 IAGLIAIVMVTIMLCCMTSCCSCLKGCCSCGSCC-KFDEDDSEPVLKGVK   1269
+                     ||||:|:.:....:.|.|.|.:...|...|..|| :::|.|.||  ..|.
+YP_009047204.   1304 IAGLVALALCVFFILCCTGCGTNCMGKLKCNRCCDRYEEYDLEP--HKVH   1351
+
+YP_009724390.   1270 LHYT   1273
+                     :|  
+YP_009047204.   1352 VH--   1353
+
+
+#---------------------------------------
+#---------------------------------------
